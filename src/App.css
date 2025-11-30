@@ -1,0 +1,15 @@
+html {
+  scroll-padding-top: 80px; /* equal to your navbar height */
+  scroll-behavior: smooth;
+}
+.react-chatbot-kit-chat-container {
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+.react-chatbot-kit-chat-bot-message {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+.react-chatbot-kit-chat-input {
+  border-radius: 8px;
+}

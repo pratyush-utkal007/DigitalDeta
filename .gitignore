@@ -1,0 +1,7 @@
+node_modules/
+dist/
+build/
+.firebase/
+*.log
+.vscode/
+.env

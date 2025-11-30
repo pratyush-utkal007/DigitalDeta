@@ -1,0 +1,21 @@
+{
+  "name": "Digital Deta",
+  "short_name": "DigitalDeta",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#7b61ff",
+  "description": "Digital Deta provides IT services including web development, app development, branding, and digital marketing.",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
