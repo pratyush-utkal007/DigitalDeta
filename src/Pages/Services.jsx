@@ -213,7 +213,7 @@ export default function Services() {
               Transforming <br />
               <span className="text-[#0d3b66]">DigitalDeta</span> Solutions
             </h1>
-            <p className="mt-6 text-lg text-gray-600 leading-relaxed max-w-lg">
+            <p className="mt-6 text-lg leading-relaxed max-w-lg">
               We deliver future-ready IT solutions — from Salesforce and cloud
               systems to intelligent automation and modern web applications that
               empower businesses to grow efficiently.
@@ -303,7 +303,7 @@ export default function Services() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
               Our <span className="text-[#0d3b66]">Services</span>
             </h2>
-            <p className="text-gray-500 mt-2">
+            <p className=" mt-2">
               Hover a card to expand it smoothly (responsive & clean)
             </p>
           </div>
@@ -356,7 +356,7 @@ export default function Services() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -10 }}
                         transition={{ duration: 0.35, ease: "easeInOut" }}
-                        className="text-gray-700 text-sm leading-relaxed"
+                        className=" text-sm leading-relaxed"
                       >
                         {s.description}
                       </motion.p>
@@ -445,9 +445,7 @@ export default function Services() {
                 </h3>
 
                 {/* Description */}
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  {step.desc}
-                </p>
+                <p className=" text-sm leading-relaxed">{step.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -465,7 +463,7 @@ export default function Services() {
             </span>{" "}
             With Technology
           </h2>
-          <p className="text-gray-600 mb-12 max-w-2xl">
+          <p className=" mb-12 max-w-2xl">
             We provide seamless and intuitive digital solutions focused on clear
             navigation, innovative design, and easy access to information.
           </p>
@@ -488,7 +486,7 @@ export default function Services() {
                     animate={{ rotate: openIndex === index ? 180 : 0 }}
                     transition={{ duration: 0.3, ease: "easeInOut" }}
                   >
-                    <ChevronDown className="text-gray-600 w-5 h-5" />
+                    <ChevronDown className=" w-5 h-5" />
                   </motion.div>
                 </button>
 
@@ -504,7 +502,7 @@ export default function Services() {
                         opacity: { duration: 0.3 },
                       }}
                     >
-                      <div className="px-6 pb-5 text-gray-600 text-sm md:text-base leading-relaxed">
+                      <div className="px-6 pb-5  text-sm md:text-base leading-relaxed">
                         {faq.answer}
                       </div>
                     </motion.div>
@@ -523,7 +521,7 @@ export default function Services() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Book an <span className="text-[#0d3b66]">Appointment</span>
             </h2>
-            <p className="text-gray-600 mb-8 leading-relaxed">
+            <p className=" mb-8 leading-relaxed">
               Let’s make your vision come to life. Schedule an appointment with
               our expert team and start your journey toward digital success.
             </p>

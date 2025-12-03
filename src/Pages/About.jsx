@@ -90,7 +90,7 @@ export default function About() {
 
     return (
       <motion.div
-        className="flex flex-wrap justify-center text-center text-3xl sm:text-4xl md:text-5xl font-bold text-[#0b1739]"
+        className="flex flex-wrap justify-center text-center text-[25px] sm:text-4xl md:text-4xl font-bold text-[#0b1739]"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -127,7 +127,7 @@ export default function About() {
   };
 
   const AnimatedTitle = ({ text }) => (
-    <h2 className="text-2xl md:text-4xl font-bold text-gray-800 flex flex-wrap">
+    <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-3 flex flex-wrap">
       {text.split("").map((char, i) => (
         <motion.span
           key={i}
@@ -187,7 +187,7 @@ export default function About() {
             >
               <AnimatedTitle text="Our Mission" />
 
-              <p className="text-gray-600 leading-relaxed mb-4">
+              <p className=" leading-relaxed mb-4">
                 At{" "}
                 <span className="font-semibold text-indigo-600">
                   Digital Deta
@@ -198,7 +198,7 @@ export default function About() {
                 long-term growth.
               </p>
 
-              <p className="text-gray-600 leading-relaxed">
+              <p className="leading-relaxed">
                 We blend technology, creativity, and strategy to deliver
                 seamless digital experiences that help our clients stay ahead in
                 an evolving marketplace.
@@ -236,14 +236,14 @@ export default function About() {
             >
               <AnimatedTitle text="Our Vision" />
 
-              <p className="text-gray-600 leading-relaxed mb-4">
+              <p className=" leading-relaxed mb-4">
                 Our vision is to be a global leader in crafting intelligent and
                 sustainable digital ecosystems. We empower organizations to
                 unlock their full potential through automation, innovation, and
                 seamless technology integration.
               </p>
 
-              <p className="text-gray-600 leading-relaxed">
+              <p className=" leading-relaxed">
                 Through continuous learning, collaboration, and excellence, we
                 aim to stand as a trusted partner in shaping the digital world
                 of tomorrow.
@@ -313,7 +313,7 @@ export default function About() {
               Our Services
             </h4>
             <p className="text-4xl md:text-4xl font-bold leading-tight">
-              <AnimatedHeading text="Simplifying Complexity    with the Best Solutions" />
+              <AnimatedHeading text="Simplifying Complexity with the Best Solutions" />
               <div></div>
             </p>
           </motion.div>
@@ -466,9 +466,7 @@ export default function About() {
                   </h3>
 
                   {/* Description */}
-                  <p className="text-gray-600 text-sm leading-relaxed">
-                    {step.desc}
-                  </p>
+                  <p className=" text-sm leading-relaxed">{step.desc}</p>
                 </motion.div>
               ))}
             </div>

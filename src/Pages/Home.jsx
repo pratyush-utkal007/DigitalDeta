@@ -489,7 +489,7 @@ export default function Home() {
                     {item.title}
                   </h2>
 
-                  <ul className="space-y-3 text-gray-700 leading-relaxed">
+                  <ul className="space-y-3  leading-relaxed">
                     {item.list.map((l, idx) => (
                       <li key={idx} className="flex gap-2">
                         <span className="text-[#0b1739]">›</span>
@@ -521,9 +521,9 @@ export default function Home() {
                   {item.title}
                 </h2>
 
-                <ul className="space-y-4 text-gray-700">
+                <ul className="space-y-4">
                   {item.list.map((l, idx) => (
-                    <li key={idx} className="flex gap-3">
+                    <li key={idx} className="flex gap-3 text-black/90">
                       <span className="text-red-600">›</span>
                       {l}
                     </li>

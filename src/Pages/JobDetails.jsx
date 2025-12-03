@@ -61,7 +61,7 @@ export default function JobDetails() {
           <Typography
             variant="h4"
             fontWeight="700"
-            sx={{ mb: 2, color: "#1a1a1a" }}
+            sx={{ mb: 2, color: "#0d3b66" }}
           >
             {job.title}
           </Typography>
@@ -91,7 +91,7 @@ export default function JobDetails() {
             Job Summary
           </Typography>
 
-          <Typography sx={{ mb: 4, color: "#444", lineHeight: 1.8 }}>
+          <Typography sx={{ mb: 4, color: "#000000", lineHeight: 1.8 }}>
             {job.summary}
           </Typography>
 
@@ -123,7 +123,7 @@ export default function JobDetails() {
                   color="#0d3b66"
                   style={{ marginTop: 2 }}
                 />
-                <span style={{ color: "#444" }}>{q}</span>
+                <span style={{ color: "#000000" }}>{q}</span>
               </Box>
             ))}
           </Box>
@@ -156,7 +156,7 @@ export default function JobDetails() {
                   color="#0d3b66"
                   style={{ marginTop: 3 }}
                 />
-                <span style={{ color: "#444" }}>{r}</span>
+                <span style={{ color: "#000000" }}>{r}</span>
               </Box>
             ))}
           </Box>

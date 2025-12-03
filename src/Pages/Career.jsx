@@ -212,12 +212,18 @@ export default function Career() {
                         color: "#333",
                       }}
                     >
-                      <Typography>🕛 {job.type}</Typography>
-                      <Typography>📍 {job.location}</Typography>
-                      <Typography>📝 {job.experience}</Typography>
+                      <Typography className="text-black">
+                        🕛 {job.type}
+                      </Typography>
+                      <Typography className="text-black">
+                        📍 {job.location}
+                      </Typography>
+                      <Typography className="text-black">
+                        📝 {job.experience}
+                      </Typography>
                     </Box>
 
-                    <Typography sx={{ fontSize: "0.9rem", color: "#555" }}>
+                    <Typography sx={{ fontSize: "0.9rem", color: "#000000" }}>
                       {job.summary.length > 120
                         ? job.summary.slice(0, 120) + "..."
                         : job.summary}
