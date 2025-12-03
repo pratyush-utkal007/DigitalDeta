@@ -5,9 +5,7 @@ import { Link } from "react-router-dom"; // ✅ FIXED import
 
 export default function Footer() {
   return (
-    <footer className="mt-[-10px] via-gray-50 to-gray-100 text-gray-700 pt-20 pb-10 px-0 md:px-0 lg:px-0 overflow-hidden relative w-full">
-      <div className=" mb-24"></div>
-
+    <footer className=" via-gray-50 to-gray-100 text-gray-700 pt-20 pb-10 px-0 md:px-0 lg:px-0 overflow-hidden relative w-full">
       {/* Footer Content */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 text-sm relative z-10">
         {/* Logo and About */}
