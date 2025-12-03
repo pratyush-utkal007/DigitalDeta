@@ -261,7 +261,7 @@ export default function About() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="text-4xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
                 <AnimatedTitle text="We Make Relationship Between" />
                 <span className="text-[#0d3b66]"> Business </span>
                 <span className="text-gray-900">&</span>
@@ -313,7 +313,7 @@ export default function About() {
               Our Services
             </h4>
             <p className="text-4xl md:text-4xl font-bold leading-tight">
-              <AnimatedHeading text="We Make It Simple, Providing Best Solution" />
+              <AnimatedHeading text="We Make It Simple and Providing Best Solution" />
             </p>
           </motion.div>
 
