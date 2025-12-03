@@ -127,7 +127,7 @@ export default function About() {
   };
 
   const AnimatedTitle = ({ text }) => (
-    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 flex flex-wrap">
+    <h2 className="text-2xl md:text-4xl font-bold text-gray-800 flex flex-wrap">
       {text.split("").map((char, i) => (
         <motion.span
           key={i}
@@ -313,7 +313,8 @@ export default function About() {
               Our Services
             </h4>
             <p className="text-4xl md:text-4xl font-bold leading-tight">
-              <AnimatedHeading text="We Make It Simple and Providing Best Solution" />
+              <AnimatedHeading text="Simplifying Complexity    with the Best Solutions" />
+              <div></div>
             </p>
           </motion.div>
 

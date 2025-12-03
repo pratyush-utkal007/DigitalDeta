@@ -18,12 +18,9 @@ export default function Footer() {
           <h3 className="text-2xl font-bold text-gray-800 mb-3">
             <span className="text-[#0d3b66]">Digital</span> Deta
           </h3>
-          <p className="text-black leading-relaxed mb-6">
+          <p className="text-black leading-relaxed ">
             Crafting smart digital experiences that transform businesses through
             design, innovation, and technology. Let's build the future together.
-          </p>
-          <p className="text-black text-sm">
-            © {new Date().getFullYear()} Digital Deta. All Rights Reserved.
           </p>
         </motion.div>
 
@@ -150,8 +147,9 @@ export default function Footer() {
 
       {/* Bottom Border */}
       <div className="mt-16 text-center text-black text-xs border-t border-gray-200 pt-6">
-        Designed with 💙 by{" "}
-        <span className="text-[#0d3b66] font-medium">Digital Deta</span>
+        <p className="text-black text-sm">
+          © {new Date().getFullYear()} Digital Deta. All Rights Reserved.
+        </p>
       </div>
     </footer>
   );

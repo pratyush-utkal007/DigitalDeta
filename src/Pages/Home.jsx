@@ -884,18 +884,7 @@ export default function Home() {
               fontSize: { xs: "1.6rem", sm: "2.8rem", md: "2.4rem" },
             }}
           >
-            <AnimatedHeading text="The Experiences Of Our Clients" />
-          </Typography>
-
-          <Typography
-            variant="h5"
-            sx={{
-              fontWeight: 700,
-              mb: 6,
-              fontSize: { xs: "1.1rem", sm: "1.3rem", md: "1.5rem" },
-            }}
-          >
-            Happy Customers.
+            <AnimatedHeading text=" What Our Clients Say" />
           </Typography>
 
           {/* Arrows */}
