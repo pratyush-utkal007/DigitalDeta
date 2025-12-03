@@ -596,7 +596,7 @@ export default function Home() {
               lineHeight: "1.9", // leading-tight
             }}
           >
-            <AnimatedHeading text="Some Popular Projects Studies" />
+            <AnimatedHeading text="Our Projects" />
           </Typography>
 
           {/* Grid Layout */}
@@ -881,11 +881,10 @@ export default function Home() {
             sx={{
               fontWeight: 800,
               mt: 1,
-              fontSize: { xs: "1.6rem", sm: "2rem", md: "2.4rem" },
-              px: { xs: 1, sm: 0 }, // mobile padding
+              fontSize: { xs: "1.6rem", sm: "2.8rem", md: "2.4rem" },
             }}
           >
-            <AnimatedHeading text="The Positive Experiences Of Our Clients" />
+            <AnimatedHeading text="The Experiences Of Our Clients" />
           </Typography>
 
           <Typography
